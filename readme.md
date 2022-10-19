@@ -14,3 +14,10 @@ pip install haichatbot
 └── README.md            # 介绍文档
 ```
 > 
+#### 如何上传自己的包
+```
+python setup.py check
+python setup.py register sdist upload -r http://pypi.org
+python setup.py bdist_egg
+twine upload dist/*
+```
