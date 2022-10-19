@@ -11,7 +11,7 @@ class HowToAnswer(object):
     def __init__(self):
         pass
 
-    def listen(self, words):
+    def listen(self, word):
         pass
 
     def answer(self, words):
